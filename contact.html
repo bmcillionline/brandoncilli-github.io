@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Contact Me</title>
 </head>
-<div class="container col-12">
+<div>
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Brandon Cilli</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +31,11 @@
             Projects
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Project1</a>
+            <a class="dropdown-item" href="#">Project2</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Collab1</a>
+            <a class="dropdown-item" href="#">Collab2</a>
           </div>
         </li>
         <li class="nav-item">
@@ -49,8 +50,36 @@
   </nav>
 </div>
 <body>
-    <h2>This is a website to showcase projects and updated resume.</h2>
-
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Me</h2>
+          <p>Drop a line for career opportunities or with any questions!</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="/files/logo.png" style="width:75%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">E-mail</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your e-mail address..">
+              <label for="country">Reason For Message</label>
+              <select id="country" name="country">
+                <option value="australia">Job Opportunities</option>
+                <option value="canada">Questions</option>
+                <option value="usa">General Inquiry</option>
+              </select>
+              <label for="subject">Subject</label>
+              <input type="text" id="reason" name="subject" placeholder="Subject of message..">
+              <label for="message">Message</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
