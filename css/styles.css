@@ -1,0 +1,14 @@
+h2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar-nav{
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+/* body {
+    padding: 50px;
+} */
